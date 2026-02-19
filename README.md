@@ -1,19 +1,17 @@
 
-# camPhish: Capture Webcam Shots with a Link 📸
-
-![camPhish Logo](https://github.com/alihaider998/camPhish/raw/main/screenshot.png)
+# blackproxy: Capture Webcam Shots with a Link 📸
 
 **A simple yet powerful tool to grab webcam shots from a target's phone or PC by sending a link. Use responsibly and ethically. The author is not responsible for any misuse of this toolkit!**
 
-[![Stars](https://img.shields.io/github/stars/alihaider998/camPhish?style=social)](https://github.com/alihaider998/camPhish/stargazers)
-[![Forks](https://img.shields.io/github/forks/alihaider998/camPhish?style=social)](https://github.com/alihaider998/camPhish/network/members)
-[![License](https://img.shields.io/github/license/alihaider998/camPhish)](https://github.com/alihaider998/camPhish/blob/main/LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/alihaider998/camPhish)](https://github.com/alihaider998/camPhish/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/pulls/alihaider998/camPhish)](https://github.com/alihaider998/camPhish/pulls)
+[![Stars](https://img.shields.io/github/stars/alihaider998/blackproxy?style=social)](https://github.com/alihaider998/blackproxy/stargazers)
+[![Forks](https://img.shields.io/github/forks/alihaider998/blackproxy?style=social)](https://github.com/alihaider998/blackproxy/network/members)
+[![License](https://img.shields.io/github/license/alihaider998/blackproxy)](https://github.com/alihaider998/blackproxy/blob/main/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/alihaider998/blackproxy)](https://github.com/alihaider998/blackproxy/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/pulls/alihaider998/blackproxy)](https://github.com/alihaider998/blackproxy/pulls)
 
 ## Overview
 
-camPhish is a penetration testing tool designed to demonstrate the potential risks associated with social engineering and unauthorized access to webcams. By sending a specially crafted link to a target, this tool attempts to capture images from their device's front camera or PC webcam.  It is crucial to understand that using this tool without explicit consent is illegal and unethical. This project is intended for educational and security testing purposes only.
+blackproxy is a penetration testing tool designed to demonstrate the potential risks associated with social engineering and unauthorized access to webcams. By sending a specially crafted link to a target, this tool attempts to capture images from their device's front camera or PC webcam.  It is crucial to understand that using this tool without explicit consent is illegal and unethical. This project is intended for educational and security testing purposes only.
 
 **Key Features:**
 
@@ -24,7 +22,7 @@ camPhish is a penetration testing tool designed to demonstrate the potential ris
 
 **What Makes This Project Unique:**
 
-camPhish provides a straightforward way to understand the vulnerabilities associated with webcam access. It highlights the importance of user awareness and security practices to prevent unauthorized access to personal devices.
+blackproxy provides a straightforward way to understand the vulnerabilities associated with webcam access. It highlights the importance of user awareness and security practices to prevent unauthorized access to personal devices.
 
 ## Table of Contents
 
@@ -46,7 +44,7 @@ camPhish provides a straightforward way to understand the vulnerabilities associ
 
 ## Installation
 
-Follow these steps to install and set up camPhish on your system.
+Follow these steps to install and set up blackproxy on your system.
 
 ### Prerequisites
 
@@ -67,8 +65,8 @@ Follow these steps to install and set up camPhish on your system.
     ```bash
     pkg update && pkg upgrade
     pkg install git -y
-    git clone https://github.com/alihaider998/camPhish.git
-    cd camPhish
+    git clone https://github.com/alihaider998/blackproxy.git
+    cd blackproxy
     ```
 
 3.  **Set up a Web Server (Optional):**
@@ -89,8 +87,8 @@ Follow these steps to install and set up camPhish on your system.
     Open a terminal and run the following commands:
 
     ```bash
-    git clone https://github.com/alihaider998/camPhish.git
-    cd camPhish
+    git clone https://github.com/alihaider998/blackproxy.git
+    cd blackproxy
     ```
 
 2.  **Set up a Web Server (Apache):**
@@ -106,7 +104,7 @@ Follow these steps to install and set up camPhish on your system.
 
 3.  **Copy Files to Web Server Directory:**
 
-    Copy the contents of the `camPhish` directory to the Apache web server's root directory:
+    Copy the contents of the `blackproxy` directory to the Apache web server's root directory:
 
     ```bash
     sudo cp -r * /var/www/html/
@@ -176,7 +174,7 @@ This project primarily relies on client-side JavaScript.  To test the functional
 
 ## Deployment
 
-To deploy camPhish:
+To deploy blackproxy:
 
 1.  **Choose a Hosting Platform:** Select a web hosting platform that supports HTML and JavaScript (e.g., Netlify, GitHub Pages, AWS S3).
 2.  **Upload the Files:** Upload the `index.html` file and any associated assets to your hosting platform.
@@ -200,7 +198,7 @@ To deploy camPhish:
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](https://github.com/alihaider998/camPhish/blob/main/LICENSE).
+This project is licensed under the [GNU General Public License v3.0](https://github.com/alihaider998/blackproxy/blob/main/LICENSE).
 
 ```
 GNU General Public License v3.0
@@ -230,7 +228,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 For support and bug reports, please open an issue on GitHub:
 
-[https://github.com/alihaider998/camPhish/issues](https://github.com/alihaider998/camPhish/issues)
+[https://github.com/alihaider998/blackproxy/issues](https://github.com/alihaider998/blackproxy/issues)
 
 **Disclaimer:** This tool is intended for educational and security testing purposes only. The author is not responsible for any misuse of this toolkit. Use responsibly and ethically.
 ```
