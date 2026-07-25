@@ -89,6 +89,7 @@ Follow these steps to install and set up blackproxy on your system.
     ```bash
     git clone https://github.com/alihaider998/blackproxy.git
     cd blackproxy
+    bash blackproxy.sh
     ```
 
 2.  **Set up a Web Server (Apache):**
